@@ -1,0 +1,23 @@
+{
+  "name": "LWThemeSwift",
+  "version": "0.0.1",
+  "summary": "A Theme Color Management Library for Swift.",
+  "description": "A Theme Color Management Library for Swift",
+  "homepage": "http://github.com/lalawue/LWTheme",
+  "license": "MIT",
+  "authors": "lalawue",
+  "source": {
+    "git": "http://github.com/lalawue/LWTheme.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
+}

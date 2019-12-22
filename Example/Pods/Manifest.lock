@@ -1,0 +1,16 @@
+PODS:
+  - LWThemeSwift (0.0.1)
+
+DEPENDENCIES:
+  - LWThemeSwift (from `../`)
+
+EXTERNAL SOURCES:
+  LWThemeSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWThemeSwift: 54352a81c37ddcc14a5e96d154c00c083c729de8
+
+PODFILE CHECKSUM: 1acb337904640abcef47393e27a85ff3d58926ef
+
+COCOAPODS: 1.8.4
