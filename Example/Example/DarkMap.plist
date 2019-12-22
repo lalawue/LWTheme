@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Color</key>
+	<dict>
+		<key>NavBarTintColor</key>
+		<string>#000000</string>
+		<key>TitleLabel</key>
+		<string>#FFFFFF</string>
+		<key>ImageTintColor</key>
+		<string>#FF8080</string>
+		<key>ImageButtonTint</key>
+		<string>#333333</string>
+		<key>ImageButtonBorder</key>
+		<string>#CCCCCC</string>
+		<key>LabelAttrString</key>
+		<string>#000000</string>
+		<key>LabelAttrBackground</key>
+		<string>#AAAAAA</string>
+		<key>SwitchOnTint</key>
+		<string>#FF0000</string>
+		<key>SwitchThumb</key>
+		<string>#111111</string>
+		<key>GradientLayerStart</key>
+		<string>#00FFFF</string>
+		<key>GradientLayerEnd</key>
+		<string>#FF00FF</string>
+		<key>ActionButtonTitle</key>
+		<string>#000000</string>
+		<key>ActionButtonBackground</key>
+		<string>#FFFFFF</string>
+	</dict>
+	<key>Font</key>
+	<dict>
+		<key>ImageButtonFont</key>
+		<string>italic:22</string>
+		<key>AttrStringFont</key>
+		<string>bold:22</string>
+	</dict>
+	<key>Image</key>
+	<dict>
+		<key>sign_icon</key>
+		<string>sign_icon_red</string>
+	</dict>
+</dict>
+</plist>
