@@ -1,5 +1,7 @@
 
-the ObjectiveC version refers to ObjC branch.
+[中文介绍](http://suchang.net/blog/2019-12.html#p1)
+
+the ObjectiveC version please refers to ObjC branch.
 
 # Introduction
 
@@ -10,9 +12,9 @@ the library provide a simple interface to use theme/skin manager for iOS8+, incl
 - gradientColor
 - font family and size
 - image or tint image
-- attributed string
+- attributed string foreground/background color
 
-please take a grance at screenshot, and more refers to source code.
+also provide a simple way to add the theme/skin ability for other UI element.
 
 # ScreenShot
 
