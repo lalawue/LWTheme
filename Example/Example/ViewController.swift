@@ -129,14 +129,14 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
             break;
             
         case 2:
-            cell?.textLabel?.text = "UIButton\ntitle\nborder\ntint background image"
-            cell?.textLabel?.numberOfLines = 4
+            cell?.textLabel?.text = "UIButton\ntitle color\nfont family:size\nborder color\ntint background image"
+            cell?.textLabel?.numberOfLines = 5
             cell?.contentView.addSubview(self.imageButton)
             break;
             
         case 3:
-            cell?.textLabel?.text = "UILabel\nfont"
-            cell?.textLabel?.numberOfLines = 2
+            cell?.textLabel?.text = "UILabel\ntext color\nattributed string color\nfont family:size"
+            cell?.textLabel?.numberOfLines = 4
             cell?.contentView.addSubview(self.attrLabel)
             break;
             
@@ -215,14 +215,14 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     }()
     
     lazy var attrLabel : UILabel = {
-        let label = UILabel(frame: CGRect(origin: CGPoint(x: 24, y: 10), size: CGSize(width: 300, height: 35)))
+        let label = UILabel(frame: CGRect(origin: CGPoint(x: 24, y: 10), size: CGSize(width: 300, height: 80)))
         label.textAlignment = NSTextAlignment.left;
         label.attributedText = NSAttributedString.init(string: "Attributed  String");
         return label
     }()
     
     lazy var switchButton : UISwitch = {
-        let button = UISwitch(frame: CGRect(origin: CGPoint(x: 24, y: 10), size: CGSize(width: 75, height: 35)))
+        let button = UISwitch(frame: CGRect(origin: CGPoint(x: 24, y: 10), size: CGSize(width: 75, height: 40)))
         button.isOn = true
         return button
     }()

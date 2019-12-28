@@ -1,6 +1,0 @@
-framework module LWThemeSwift {
-  umbrella header "LWThemeSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}
