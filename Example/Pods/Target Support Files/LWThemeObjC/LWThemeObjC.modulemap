@@ -1,6 +1,0 @@
-framework module LWThemeObjC {
-  umbrella header "LWThemeObjC-umbrella.h"
-
-  export *
-  module * { export * }
-}

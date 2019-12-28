@@ -147,6 +147,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.textAlignment = NSTextAlignmentRight;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     switch (indexPath.row) {
         case 0:
@@ -162,14 +163,14 @@
             break;
             
         case 2:
-            cell.textLabel.text = @"UIButton\ntitle\nborder\ntint background image";
-            cell.textLabel.numberOfLines = 4;
+            cell.textLabel.text = @"UIButton\ntitle color\nfont family:size\nborder color\ntint background image";
+            cell.textLabel.numberOfLines = 5;
             [cell.contentView addSubview:self.imageButton];
             break;
             
         case 3:
-            cell.textLabel.text = @"UILabel\nfont";
-            cell.textLabel.numberOfLines = 2;
+            cell.textLabel.text = @"UILabel\ntext color\nattributed string color\nfont family:size";
+            cell.textLabel.numberOfLines = 4;
             [cell.contentView addSubview:self.attrLabel];
             break;
             
@@ -275,7 +276,7 @@
 - (UILabel *)attrLabel
 {
     if (!_attrLabel) {
-        _attrLabel = [[UILabel alloc] initWithFrame:CGRectMake(24, 10, 300, 35)];
+        _attrLabel = [[UILabel alloc] initWithFrame:CGRectMake(24, 10, 300, 80)];
         _attrLabel.font = [UIFont boldSystemFontOfSize:22];
         _attrLabel.textAlignment = NSTextAlignmentLeft;
         _attrLabel.attributedText = [[NSAttributedString alloc] initWithString:@"Attributed  String"];
@@ -286,7 +287,7 @@
 - (UISwitch *)switchButton
 {
     if (!_switchButton) {
-        _switchButton = [[UISwitch alloc] initWithFrame:CGRectMake(24, 10, 70, 35)];
+        _switchButton = [[UISwitch alloc] initWithFrame:CGRectMake(24, 10, 70, 40)];
         _switchButton.on = YES;
     }
     return _switchButton;
