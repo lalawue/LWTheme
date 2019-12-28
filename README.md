@@ -10,7 +10,9 @@ the library provide a simple interface to use theme/skin manager for iOS8+, incl
 - gradientColor
 - font family and size
 - image or tint image
-- attributed string
+- attributed string foreground/background color
+
+also provide a simple way to add the theme/skin ability for other UI element.
 
 please take a grance at screenshot, and more refers to source code.
 
